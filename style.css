@@ -68,3 +68,13 @@ a:hover {
     font-size: 3.5em;
 }
 
+.artist-statement {
+    color: #ffffff;
+    font-family: Helvetica, sans-serif;
+    font-size: 1em;
+    text-transform: none;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+
