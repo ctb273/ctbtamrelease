@@ -80,22 +80,31 @@ footer a:hover {
     font-size: 3.5em;
 }
 
-.artist-statement {
+.artist-statement-s,
+.artist-statement-c {
     color: #ffffff;
     font-family: Helvetica, sans-serif;
     font-size: 1em;
     text-transform: none;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 3%;
-    margin-bottom: 3%;
-    width: 80%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 40%;
     border-style: solid;
     border-color: #ffffff;
     border-width: 2px;
-    padding-left: 3%;
-    padding-right: 3%
+    padding-right: 2%;
+    padding-left: 2%;
+    clear: both;
+    display: inline;
+}
 
+.artist-statement-s {
+    float: left;
+}
+.artist-statement-c {
+    float: right;
 }
 
 .statement-header {
@@ -115,9 +124,21 @@ footer a:hover {
 }
     
 #coming-soon img {
-    width: 100%;
-    margin: auto;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
     border-style: solid;
     border-color: #ffffff;
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
+
+.credit-text {
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-size: .75em;
+}
+
+
 
