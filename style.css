@@ -80,30 +80,37 @@ footer a:hover {
     font-size: 3.5em;
 }
 
-.artist-statement-s,
-.artist-statement-c {
+.credit-text {
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-size: .75em;
+}
+
+#wrapper {
+    width: 100%;
+}
+
+#artist-statement-s,
+#artist-statement-c {
     color: #ffffff;
     font-family: Helvetica, sans-serif;
     font-size: 1em;
     text-transform: none;
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    width: 40%;
     border-style: solid;
     border-color: #ffffff;
     border-width: 2px;
-    padding-right: 2%;
-    padding-left: 2%;
+    width: 40%;
+    margin: 1%;
+    padding: 1%;
+    display: inline-block;
     clear: both;
-    display: inline;
 }
 
-.artist-statement-s {
+#artist-statement-s {
     float: left;
 }
-.artist-statement-c {
+#artist-statement-c {
     float: right;
 }
 
@@ -131,13 +138,6 @@ footer a:hover {
     border-color: #ffffff;
     margin-bottom: 2%;
     margin-top: 2%;
-}
-
-.credit-text {
-    text-align: right;
-    text-transform: uppercase;
-    letter-spacing: .2em;
-    font-size: .75em;
 }
 
 
