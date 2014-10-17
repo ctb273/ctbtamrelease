@@ -100,11 +100,11 @@ footer a:hover {
     border-style: solid;
     border-color: #ffffff;
     border-width: 2px;
-    width: 40%;
+    width: 45%;
+    height: 45%;
     margin: 1%;
     padding: 1%;
     display: inline-block;
-    clear: both;
 }
 
 #artist-statement-s {
