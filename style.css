@@ -28,6 +28,13 @@ header {
 
 }
 
+/* NEEDS FIX:
+header ul li {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+*/
+
 header a:hover {
     background-color: #ffffff;
     color: #000000;
