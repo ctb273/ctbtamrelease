@@ -16,6 +16,7 @@ body {
 header {
     position: static;
     margin: 0 auto;
+    font-family: Helvetica Neue, Helvetica, sans-serif;
     padding: 0;
     height: 40px;
     width: 100%;
@@ -24,7 +25,7 @@ header {
     font-size: 1em;
     background: #000000;
     letter-spacing: 0.15em;
-    font-weight: 115;
+    font-weight: 125;
 
 }
 
@@ -65,7 +66,7 @@ li {
     padding-right: 5px;
     padding-left: 5px;
     padding-top: 5px;
-    paddin-bottom: 5px;
+    padding-bottom: 5px;
     margin: 25px;
 }
 
